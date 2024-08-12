@@ -5,8 +5,9 @@ import HomePage from '../Pages/HomePage';
 import AboutPage from '../Pages/aboutpage';
 import ProjectsPage from '../Pages/projects';
 import ContactMe from '../Pages/contactme';
-import Blogs from '../Pages/blogs';
 import Gazananlarym from '../Pages/gazananlarym';
+import BlogDetail from '../Pages/blogsDetail';
+import BlogS from '../Pages/blogs';
 
 const Rootes = () => {
     return (
@@ -17,7 +18,8 @@ const Rootes = () => {
                 <Route path="/about" element={<AboutPage />} />
                 <Route path="/projects" element={<ProjectsPage />} />
                 <Route path="/contacts" element={<ContactMe />} />
-                <Route path="/blog" element={<Blogs />} />
+                <Route path="/blog" element={<BlogS />} />
+                <Route path="/blog/:id" element={<BlogDetail />} />
                 <Route path="/achievements" element={<Gazananlarym />} />
 
 

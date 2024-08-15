@@ -20,7 +20,7 @@ const Footer = () => {
                             <FaLinkedin className="text-2xl" />
                         </a>
                         <a
-                            href="https://github.com/yourusername"
+                            href="https://github.com/MergenHojo"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="text-gray-400 hover:text-white transition duration-200"

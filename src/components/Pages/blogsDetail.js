@@ -14,12 +14,12 @@ import ai3 from '../../img/postsimg/ai/ai3.jpg'
 import mug1 from '../../img/postsimg/mug/teacher1.jpg'
 import mug2 from '../../img/postsimg/mug/teacher2.jpg'
 import mug3 from '../../img/postsimg/mug/teacher3.jpg'
-import mug4 from '../../img/postsimg/mug/teacher4.jpg'
+
 
 import okuwcy1 from '../../img/postsimg/okuwcy/stdn1.jpg'
 import okuwcy2 from '../../img/postsimg/okuwcy/stdn2.jpg'
 import okuwcy3 from '../../img/postsimg/okuwcy/stdn3.jpg'
-import okuwcy4 from '../../img/postsimg/okuwcy/stdn4.jpg'
+
 
 import owrenmek1 from '../../img/postsimg/owrenmek/learn1.jpg'
 import owrenmek2 from '../../img/postsimg/owrenmek/learn2.jpg'

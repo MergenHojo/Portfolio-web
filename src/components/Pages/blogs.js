@@ -68,6 +68,10 @@ const posts = [
         longDescription2: 'Ýaşlarda bilim bermegiň düzgünleri we metodlary, olaryň geljekde üstünlik gazanmagynda möhüm rol oýnaýar. Çagalaryň ýaş döwürlerinde, olar üçin döwrebap we çekiji dersler düzmek, olaryň öwrenme islegini artdyrýar we olaryň akyl taýdan ösüşini ösdürýär. Bu usullar bilen, ýaşlaryň bilim derejesi ýokarlanar we olaryň jemgyýetde üstünlik gazanmagyna kömek eder.',
         longDescription3: 'Gelişigiň mekdepleri, ýaşlarda oýun we interaktiw çäreleri ulanmak bilen, has täsirli bilim bermegiň täze ýoluny hödürleýär. Şeýle hem, çagalaryň ýaş döwürlerinde, olaryň güýçli we güýçli bir bilim almak üçin, has täsirli metodlary ulanmaly bolarys. Şu günki gün, okuw metodlaryny we tehnologiýalary ulanmak, ýaşlaryň biliminiň has ýokary derejesini üpjün edýär.'
     },
+
+
+
+
     {
         id: 3,
         title: 'Häzirki wagtda AI Ulanmagyň Ähmiýetleri',

@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaGithub } from 'react-icons/fa';
-import { SiFlutter, SiReact, SiJavascript, SiJava, SiHtml5, SiTailwindcss, SiAutodesk } from 'react-icons/si';
+import { SiFlutter, SiReact, SiJavascript, SiTailwindcss, } from 'react-icons/si';
 import Navbar from '../navbar/navbar';
 import ProjectImage1 from '../../img/pr1.jpg'; // Update with your project images
 import ProjectImage2 from '../../img/pr3.png';
@@ -91,7 +91,7 @@ const ProjectsPage = () => {
                                 <div key={index} className="relative overflow-hidden rounded-lg">
                                     <img
                                         src={image}
-                                        alt={`Gallery Image ${index + 1}`}
+                                        alt={`Gallery  ${index + 1}`}
                                         className="w-full h-48 object-cover transform hover:scale-110 transition-transform duration-300"
                                     />
                                     <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300">

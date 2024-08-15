@@ -213,7 +213,7 @@ const HomePage = () => {
                                         <h3 className="text-xl font-bold text-white">{post.title}</h3>
                                         <p className="text-[#dddddd] mt-4">{post.description}</p>
                                         <p className="text-[#aaaaaa] mt-2">{post.date}</p>
-                                        <a href={`/blog/${post.id}`} className="inline-block mt-4 text-[#3aa6f4] hover:text-[#eeeeee]">Dowamyny oka</a>
+                                        <p className="inline-block mt-4 text-[#3aa6f4] hover:text-[#eeeeee]">Dowamyny oka</p>
                                     </div>
                                 </div>
                             ))}

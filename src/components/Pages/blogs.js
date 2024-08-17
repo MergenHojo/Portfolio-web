@@ -39,14 +39,14 @@ const posts = [
     {
         id: 1,
         title: 'Mekdep Germaniýada Döreýär: Ilkinji Blog Posty',
-        description: '1900 töweregi, Amerikadaky göçmenlere dil öwretmek zerurlygy döreýär we olaram Germanlardan klas mekdep düşünjäni alyp ýaýratmak bilen işe başlaýar.',
+        description: '1900 töweregi, Amerikadaky bosgynlara dil öwretmek zerurlygy döreýär we olaram Germanlardan klas mekdep düşünjäni alyp ýaýratmak bilen işe başlaýar.',
         image: mekdep1,
         detailimage1: mekdep2,
         detailimage2: mekdep3,
         date: 'Awgust 10, 2023',
         tags: ['#mekdep', '#taryh'],
         video: null,
-        longDescription: 'Germaniýada bir mekdep esaslandyryldy, 1900-nji ýyllaryň başlarynda Amerikada göçmenlere dil öwretmek zerurlygy ýüze çykdy. Germanlar bu ýagdaýy göz öňünde tutup, klassiki mekdep düşünjesini Amerikada ýaýratmakda öňdeligi elinde saklady.',
+        longDescription: 'Germaniýada bir mekdep esaslandyryldy, 1900-nji ýyllaryň başlarynda Amerikada bosgynlara dil öwretmek zerurlygy ýüze çykdy. Germanlar bu ýagdaýy göz öňünde tutup, klassiki mekdep düşünjesini Amerikada ýaýratmakda öňdeligi elinde saklady.',
         longDescription1: 'Bu mekdep düşünjesi, Amerikanyň dürli künjeklerinde öwrenilmeli, iň gowy mekdepleriň kemala gelmegine sebäp boldy. Öwrenijiler, diňe bir dili däl, eýsem medeniýeti hem öwrenip başladylar. Bu ýagdaý, täze nesliň bilimi we dünýägaraýşy bilen ýakyndan tanyşdyrylan täsirli bir ýol boldy.',
         blockquote: '“Mekdepler diňe bilim merkezleri däl, olar jemgyýetiň kemala gelmegine hem-de medeniýetiň ösmegine goşant goşýan täsirli institutlardyr.”',
         longDescription2: 'Şu günki günde, bu mekdep modeliniň düşünjeleri, dünýäniň dürli künjeklerinde mekdeplerde ulanylýar. Mekdepleriň diňe bilim bermek bilen çäklenmän, ýaşlara durmuş endiklerini hem öwretmekde nähili täsir edýändigi barada pikir alyşmak bilen, geljegiň mekdepleri näderejede täsirli bolar diýip soraglar ýüze çykýar.',
@@ -55,7 +55,7 @@ const posts = [
     {
         id: 2,
         title: 'Ýaşlara Nädip Ögretmeli: Oýunlar we Dersler',
-        description: 'Gençlere bilim bermegiň täze we täsirli usullaryny öwreniň. Bu blog ýazgysynda, derslere oýunlar goşmak, çagalaryň näme öwrenmelidigini we ýaşlarda nähili bilim berilmelidigini ara alyp maslahatlaşarys.',
+        description: 'Ýaşlara bilim bermegiň täze we täsirli usullaryny öwreniň. Bu blog ýazgysynda, derslere oýunlar goşmak, çagalaryň näme öwrenmelidigini we ýaşlarda nähili bilim berilmelidigini ara alyp maslahatlaşarys.',
         image: oyunowren1,
         detailimage1: oyunowren2,
         detailimage2: oyunowren3,
@@ -66,7 +66,7 @@ const posts = [
         longDescription1: 'Derslerde oýunlar we interaktiw çäreler goşmak, çagalaryň degişli temalary has gowy düşünmegine kömek edýär. Oýunlar, çagalara maglumatlary aktiw ýagdaýda öwretmäge mümkinçilik berýär we bilimleri has täsirli ösdürýär. Şeýle hem, döwrebap okuw metodlaryny ulanmak, ýaşlaryň bilim almak islegini artdyrýar we olaryň döredijilik potensialyny açýar.',
         blockquote: '“Bilim berişde oýunlar we interaktiw metodlar, ýaşlaryň bilimine täze bir ýerden girmäge kömek edýär we olaryň döredijilik we tärniň ýetirilmegine mümkinçilik berýär.”',
         longDescription2: 'Ýaşlarda bilim bermegiň düzgünleri we metodlary, olaryň geljekde üstünlik gazanmagynda möhüm rol oýnaýar. Çagalaryň ýaş döwürlerinde, olar üçin döwrebap we çekiji dersler düzmek, olaryň öwrenme islegini artdyrýar we olaryň akyl taýdan ösüşini ösdürýär. Bu usullar bilen, ýaşlaryň bilim derejesi ýokarlanar we olaryň jemgyýetde üstünlik gazanmagyna kömek eder.',
-        longDescription3: 'Gelişigiň mekdepleri, ýaşlarda oýun we interaktiw çäreleri ulanmak bilen, has täsirli bilim bermegiň täze ýoluny hödürleýär. Şeýle hem, çagalaryň ýaş döwürlerinde, olaryň güýçli we güýçli bir bilim almak üçin, has täsirli metodlary ulanmaly bolarys. Şu günki gün, okuw metodlaryny we tehnologiýalary ulanmak, ýaşlaryň biliminiň has ýokary derejesini üpjün edýär.'
+        longDescription3: 'Gelejegiň mekdepleri, ýaşlarda oýun we interaktiw çäreleri ulanmak bilen, has täsirli bilim bermegiň täze ýoluny hödürleýär. Şeýle hem, çagalaryň ýaş döwürlerinde, olaryň güýçli we güýçli bir bilim almak üçin, has täsirli metodlary ulanmaly bolarys. Şu günki gün, okuw metodlaryny we tehnologiýalary ulanmak, ýaşlaryň biliminiň has ýokary derejesini üpjün edýär.'
     },
 
 
@@ -82,10 +82,10 @@ const posts = [
         date: 'Awgust 15, 2023',
         tags: ['#AI', '#tehnologiýa'],
         video: null,
-        longDescription: 'AI (Emeli aň) häzirki döwürde dürli ugurlarda giňden ulanylýar. Oňaň ulanmalary, şol sanda saglygy goraýyş, finans, bilim we başga-da birnäçe ulgamlar üçin ulanylyp bilner. AI, maglumatlary analiz etmek, näzik ýagdaýlary yzarlamak we ýöriteleşdirilen çözgütleri teklip etmek bilen tanalýar.',
+        longDescription: 'AI (Emeli aň) häzirki döwürde dürli ugurlarda giňden ulanylýar. Onuň ulanmalary, şol sanda saglygy goraýyş, finans, bilim we başga-da birnäçe ulgamlar üçin ulanylyp bilner. AI, maglumatlary analiz etmek, näzik ýagdaýlary yzarlamak we ýöriteleşdirilen çözgütleri teklip etmek bilen tanalýar.',
         longDescription1: 'AI-nyň hünärleşen ugurlary köp. Ol saglygy goraýyşda diagnoslar we dermanlaryň täsirini öwrenmekde, finans pudagynda maýa goýum kararlar üçin maglumatlary analiz etmekde, şeýle hem bilimde şahsy öwreniş planlaryny döretmekde ulanylýar. Şeýle hem, AI ýazuw, grafik dizaýn, awtomatizasiýa we başga-da birnäçe ugurlarda giňden ulanylýar.',
         blockquote: '“AI, häzirki zaman tehnologiýalarynyň esasy görnüşidir we onuň täsiri dünýäde her bir ulgama ýetik derejede güýçli bolup biler.”',
-        longDescription2: 'ýaşlar üçin AI-ny öwrenmek we ulanyp bilmek, olara täsirli we öňdebaryjy mümkinçilikleri berýär. AI bilen tanyşmak, ýaşlaryň täze tehnologiýalar bilen işleşmek we täze çözgütleri göz öňünde tutmak üçin zerurlyklary bardyr. AI ulgamyny öwrenmek we onuň hyzmatlaryny ulanmak, ýaşlaryň ösüşi we bilim derejesiniň ýokarlanmagynda möhüm rol oýnaýar.',
+        longDescription2: 'Ýaşlar üçin AI-ny öwrenmek we ulanyp bilmek, olara täsirli we öňdebaryjy mümkinçilikleri berýär. AI bilen tanyşmak, ýaşlaryň täze tehnologiýalar bilen işleşmek we täze çözgütleri göz öňünde tutmak üçin zerurlyklary bardyr. AI ulgamyny öwrenmek we onuň hyzmatlaryny ulanmak, ýaşlaryň ösüşi we bilim derejesiniň ýokarlanmagynda möhüm rol oýnaýar.',
         longDescription3: 'Gelejegiň AI-nyn ýaşlara we ähli jemgyýete berjek täsirleri uly bolar. AI arkaly ýaşlar, täze mümkinçilikler we ykdysady taýdan has ýokary derejesi bilen işleýän çözgütleri işläp biljekdir. AI-nyn ulanylyşy, ýaşlaryň innowasiýa we tehnologiýalar bilen baglanyşygyny güýçlendirer we olaryň täze ýaş döwrüne laýyk mümkinçilikleri gazanmaklaryna kömek eder.'
     }
     ,

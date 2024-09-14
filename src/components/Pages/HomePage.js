@@ -93,18 +93,21 @@ export default HomePage;
 
 
 
-import React from 'react';
+import React, { useState } from 'react';
 import Navbar from '../navbar/navbar';
 import Footer from '../Footer/footer';
 import image from '../../img/1.png';
-import { FaReact, FaHtml5, FaCss3Alt, FaJsSquare, FaNodeJs } from 'react-icons/fa';
+import { FaReact, FaHtml5, FaCss3Alt, FaJsSquare } from 'react-icons/fa';
 import { SiTailwindcss } from 'react-icons/si';
 import { SiOpenai } from 'react-icons/si';
 import { useNavigate } from 'react-router-dom';
 
+import { FaChevronUp, FaChevronDown } from 'react-icons/fa';
+
 import owrenmek1 from '../../img/postsimg/owrenmek/learn1.jpg'
 import okuwcy1 from '../../img/postsimg/okuwcy/stdn1.jpg'
 import mug1 from '../../img/postsimg/mug/teacher1.jpg'
+import Chatbot from './chatbot/chat';
 
 const blogPosts = [
     {
@@ -151,8 +154,68 @@ const skills = [
     { id: 5, name: 'Tailwind CSS', icon: <SiTailwindcss className="text-teal-400" />, level: '90%' }, // Tailwind CSS
     { id: 6, name: 'ChatGPT', icon: <SiOpenai className="text-gray-500" />, level: '85%' },
 ];
+
+
+
+
+
+const ChatBox = () => {
+    const [isChatExpanded, setIsChatExpanded] = useState(false);
+
+    const toggleChatSize = () => {
+        setIsChatExpanded(!isChatExpanded);
+    };
+
+    return (
+        <div className="fixed bottom-5 right-5 z-50">
+            {/* Chat Container */}
+            <div
+                className={`bg-green-900 opacity-90 text-white rounded-lg shadow-lg transition-all duration-300 ${isChatExpanded ? 'h-[700px] w-[400px]' : 'h-[70px] w-[400px]'
+                    }`}
+            >
+                {/* Chat Header */}
+                <div className={`${isChatExpanded ? 'p-4 flex bg-black justify-between items-center' : 'p-4 flex  justify-between items-center'
+                    } `}
+
+                >
+                    <p className={'block text-lg'}>
+
+                        {isChatExpanded ? 'Google Emeli intellekt arkaly jogaplanar' : ' Salam, soraglaryňyzy sorap bilersiňiz!'}
+                    </p>
+                    <button
+                        onClick={toggleChatSize}
+                        className="text-green-800 font-bold  bg-white hover:bg-green-600 hover:text-white p-2 rounded-full"
+                    >
+                        {isChatExpanded ? <FaChevronDown /> : <FaChevronUp />}
+                    </button>
+                </div>
+
+
+                {isChatExpanded && (
+                    <div className="p-4 text-white h-full overflow-y-auto">
+
+
+                        <Chatbot />
+                    </div>
+                )}
+            </div>
+        </div>
+    );
+};
+
+
+
+
+
+
+
+
+
+
+
 const HomePage = () => {
     const navigate = useNavigate();
+
     return (
         <>
             <Navbar />
@@ -222,6 +285,15 @@ const HomePage = () => {
                     </div>
 
                 </section>
+
+
+
+                <ChatBox />
+
+
+
+
+
 
             </div>
             <Footer />

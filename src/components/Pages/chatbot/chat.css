@@ -36,3 +36,25 @@
       transform: rotate(360deg);
     }
   }
+
+
+
+
+  /* Sohbet kutusu ve kaydırma çubuğu için stil */
+.chat-container {
+  max-height: 567px;
+  overflow-y: auto;
+}
+
+.scrollbar-thin::-webkit-scrollbar {
+  width: 2px;
+}
+
+.scrollbar-thumb {
+  background-color: #0f1b34; /* Kaydırma çubuğunun rengi */
+  border-radius: 10px;
+}
+
+.scrollbar-track {
+  background-color: #f52a18; /* Kaydırma yolu rengi */
+}

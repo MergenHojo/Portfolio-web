@@ -2,7 +2,7 @@ import React from 'react';
 import { useParams } from 'react-router-dom';
 import Navbar from '../navbar/navbar';
 import Footer from '../Footer/footer';
-
+import ChatBox from './chatbot/chatbox';
 import mekdep1 from '../../img/postsimg/mekdep/sk1.jpg'
 import mekdep3 from '../../img/postsimg/mekdep/sk0.jpg'
 import mekdep2 from '../../img/postsimg/mekdep/sk2.jpg'
@@ -198,7 +198,7 @@ const BlogDetail = () => {
                         </div>
                     </div>
                 </main>
-
+                <ChatBox />
                 <Footer />
             </div>
         </>

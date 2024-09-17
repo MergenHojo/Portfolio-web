@@ -1,11 +1,11 @@
 
 import React from 'react';
-import { FaLinkedin, FaGithub, FaEnvelope, FaHtml5, FaReact, FaJava, FaTools, FaAndroid, FaJs, FaGitAlt } from 'react-icons/fa';
+import { FaLinkedin, FaGithub, FaEnvelope, FaInstagram, FaHtml5, FaReact, FaJava, FaTools, FaAndroid, FaJs, FaGitAlt } from 'react-icons/fa';
 import Navbar from '../navbar/navbar';
 import ProfilePicture from '../../img/2.png'; // Update the path to your image
 import { SiFlutter, SiAutodesk, SiTailwindcss, SiPostman } from 'react-icons/si';
 import Footer from '../Footer/footer';
-
+import ChatBox from './chatbot/chatbox';
 
 const AboutPage = () => {
     return (
@@ -30,10 +30,22 @@ const AboutPage = () => {
                                 Teacher & Front-End Developer & AI Enthusiast
                             </p>
                             <div className="flex justify-center md:justify-start space-x-4 mb-6">
-                                <FaLinkedin className="text-2xl text-gray-400 hover:text-white transition duration-200" />
-                                <FaGithub className="text-2xl text-gray-400 hover:text-white transition duration-200" />
-                                <FaEnvelope className="text-2xl text-gray-400 hover:text-white transition duration-200" />
+                                <a href="https://www.instagram.com/mergen___hojaberdiyew/" target="_blank" rel="noopener noreferrer">
+                                    <FaInstagram className="text-2xl text-gray-400 hover:text-white transition duration-200" />
+                                </a>
+                                <a href="https://www.linkedin.com/in/mergen-hojaberdiyew-244438325" target="_blank" rel="noopener noreferrer">
+                                    <FaLinkedin className="text-2xl text-gray-400 hover:text-white transition duration-200" />
+                                </a>
+                                <a href="https://github.com/MergenHojo" target="_blank" rel="noopener noreferrer">
+                                    <FaGithub className="text-2xl text-gray-400 hover:text-white transition duration-200" />
+                                </a>
+
+
+                                <a href="amannazarovichmergen@gmail.com" target="_blank" rel="noopener noreferrer">
+                                    <FaEnvelope className="text-2xl text-gray-400 hover:text-white transition duration-200" />
+                                </a>
                             </div>
+
                             <p className="text-lg leading-relaxed">
                                 Mergen Hojaberdiýew Amannazarowiç, Magtymguly adyndaky Türkmen Döwlet Uniwersitetiniň Maglumat tehnologiýalary fakultetiniň Amaly matematika we informatika hünärini tamamlan.
                             </p>
@@ -147,6 +159,7 @@ const AboutPage = () => {
 
                     </div>
                 </div>
+                <ChatBox />
             </div>
             <Footer />
         </>

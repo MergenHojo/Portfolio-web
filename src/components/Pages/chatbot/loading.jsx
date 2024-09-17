@@ -6,7 +6,7 @@ const Loading = ({ isLoading }) => {
             {isLoading && (
                 <div className="flex items-center justify-center mt-2">
                     <div className="spinner-border text-white" role="status">
-                        <span className="visually-hidden">Loading...</span>
+                        <span className="visually-hidden">Ýüklenýär...</span>
                     </div>
                 </div>
             )}

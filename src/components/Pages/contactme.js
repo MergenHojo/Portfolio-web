@@ -4,7 +4,7 @@ import Navbar from '../navbar/navbar';
 import ProfilePicture from '../../img/1.png';
 import Footer from '../Footer/footer';
 import emailjs from 'emailjs-com';
-
+import ChatBox from './chatbot/chatbox';
 const ContactMe = () => {
     const [messageSent, setMessageSent] = useState(false);
 
@@ -45,21 +45,32 @@ const ContactMe = () => {
                             </div>
 
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                                <div className="bg-gray-700 p-6 rounded-lg shadow-lg flex items-center space-x-4">
+                                <div
+                                    className="bg-gray-700 p-6 rounded-lg shadow-lg flex items-center space-x-4 hover:bg-gray-600 hover:cursor-pointer"
+                                    onClick={() => window.location.href = "mailto:amannazarovichmergen@gmail.com"}
+                                >
                                     <FaEnvelope className="text-3xl text-blue-500" />
                                     <div>
                                         <h2 className="text-xl font-bold text-white">Email</h2>
-                                        <p className="text-gray-400">merryhojo@gmail.com</p>
+                                        <p className="text-gray-400">amannazarovichmergen@gmail.com</p>
                                     </div>
                                 </div>
-                                <div className="bg-gray-700 p-6 rounded-lg shadow-lg flex items-center space-x-4">
+
+                                <div
+                                    className="bg-gray-700 p-6 rounded-lg shadow-lg flex items-center space-x-4 hover:bg-gray-600 hover:cursor-pointer"
+                                    onClick={() => window.open("https://www.instagram.com/mergen___hojaberdiyew", "_blank")}
+                                >
                                     <FaInstagram className="text-3xl text-pink-600" />
                                     <div>
                                         <h2 className="text-xl font-bold text-white">Instagram</h2>
                                         <p className="text-gray-400">@mergen___hojaberdiyew</p>
                                     </div>
                                 </div>
-                                <div className="bg-gray-700 p-6 rounded-lg shadow-lg flex items-center space-x-4">
+
+                                <div
+                                    className="bg-gray-700 p-6 rounded-lg shadow-lg flex items-center space-x-4 hover:bg-gray-600 hover:cursor-pointer"
+                                    onClick={() => window.open("https://github.com/MergenHojo", "_blank")}
+                                >
                                     <FaGithub className="text-3xl text-gray-400" />
                                     <div>
                                         <h2 className="text-xl font-bold text-white">GitHub</h2>
@@ -67,21 +78,29 @@ const ContactMe = () => {
                                     </div>
                                 </div>
 
-                                <div className="bg-gray-700 p-6 rounded-lg shadow-lg flex items-center space-x-4">
-                                    <FaPhone className="text-3xl text-blue-500 " />
+                                <div
+                                    className="bg-gray-700 p-6 rounded-lg shadow-lg flex items-center space-x-4 hover:bg-gray-600 hover:cursor-pointer"
+                                    onClick={() => window.open("https://wa.me/99361088121", "_blank")}
+                                >
+                                    <FaPhone className="text-3xl text-blue-500" />
                                     <div>
                                         <h2 className="text-xl font-bold text-white">IMO</h2>
                                         <p className="text-gray-400">+99361088121</p>
                                     </div>
                                 </div>
-                                <div className="bg-gray-700 p-6 rounded-lg shadow-lg flex items-center space-x-4">
-                                    <FaLinkedin className="text-4xl text-blue-500 " />
+
+                                <div
+                                    className="bg-gray-700 p-6 rounded-lg shadow-lg flex items-center space-x-4 hover:bg-gray-600 hover:cursor-pointer"
+                                    onClick={() => window.open("https://www.linkedin.com/in/mergen-hojaberdiyew-244438325", "_blank")}
+                                >
+                                    <FaLinkedin className="text-4xl text-blue-500" />
                                     <div>
                                         <h2 className="text-xl font-bold text-white">LinkedIn</h2>
                                         <p className="text-gray-400">mergenhojaberdiyew</p>
                                     </div>
                                 </div>
                             </div>
+
                         </div>
                     </div>
 
@@ -132,6 +151,7 @@ const ContactMe = () => {
                         </form>
                     </div>
                 </div>
+                <ChatBox />
             </div>
             <Footer />
         </>

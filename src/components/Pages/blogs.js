@@ -3,6 +3,7 @@ import Navbar from '../navbar/navbar';
 import Footer from '../Footer/footer';
 import { Link } from 'react-router-dom';
 import { useNavigate } from 'react-router-dom';
+import ChatBox from './chatbot/chatbox';
 
 import mekdep1 from '../../img/postsimg/mekdep/sk1.jpg'
 import mekdep3 from '../../img/postsimg/mekdep/sk0.jpg'
@@ -213,6 +214,7 @@ const BlogS = () => {
                         ))}
                     </div>
                 </main>
+                <ChatBox />
                 <Footer />
             </div>
         </>

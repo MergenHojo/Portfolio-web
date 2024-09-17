@@ -4,21 +4,23 @@ import { SiFlutter, SiReact, SiJavascript, SiTailwindcss, } from 'react-icons/si
 import Navbar from '../navbar/navbar';
 import ProjectImage1 from '../../img/pr1.jpg'; // Update with your project images
 import ProjectImage2 from '../../img/pr3.png';
+import ProjectImage4 from '../../img/ishler1.PNG';
+import ProjectImage5 from '../../img/ishler2.PNG';
 import ProjectImage3 from '../../img/macbook.jpg';
 import ProjectImage1212 from '../../img/pr1.jpg';
 import Footer from '../Footer/footer';
-// Add more imports as needed
+import ChatBox from './chatbot/chatbox';
 
 const projects = [
     {
         title: "Project 1",
-        image: ProjectImage1,
+        image: ProjectImage4,
         techIcon: [<SiReact key="react" className="text-blue-500 text-4xl" />, <SiJavascript key="js" className="text-yellow-500 text-4xl" />, <SiTailwindcss key="tailwind" className="text-teal-500 text-4xl" />],
         githubLink: "https://github.com/yourusername/project1"
     },
     {
         title: "Project 2",
-        image: ProjectImage2,
+        image: ProjectImage5,
         techIcon: <SiJavascript className="text-yellow-500 text-4xl" />,
         githubLink: "https://github.com/yourusername/project2"
     },
@@ -58,8 +60,8 @@ const projects = [
 
 
 const galleryImages = [
-    ProjectImage2,
-    ProjectImage1212,
+    ProjectImage5,
+    ProjectImage4,
 
     ProjectImage2,
     ProjectImage1212,
@@ -138,6 +140,7 @@ const ProjectsPage = () => {
                         ))}
                     </div>
                 </div>
+                <ChatBox />
             </div>
             <Footer />
         </>

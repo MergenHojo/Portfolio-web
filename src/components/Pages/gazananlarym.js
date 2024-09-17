@@ -21,7 +21,7 @@ import SmallPhoto16 from '../../img/unv/a18.jpg'; // Small personal photos from 
 import SmallPhoto17 from '../../img/unv/a19.jpg'; // Small personal photos from university
 import SmallPhoto18 from '../../img/unv/a20.jpg'; // Small personal photos from university
 import SmallPhoto19 from '../../img/unv/a22.jpg'; // Small personal photos from university
-
+import ChatBox from './chatbot/chatbox';
 import CertImage1 from '../../img/sertf/sert1.jpg'; // Sertifika resimleri
 import CertImage2 from '../../img/sertf/sert2.jpg';
 import CertImage3 from '../../img/sertf/sert3.jpg';
@@ -173,6 +173,7 @@ const Gazananlarym = () => {
                     </div>
                 )}
             </div>
+            <ChatBox />
             <Footer />
         </>
     );

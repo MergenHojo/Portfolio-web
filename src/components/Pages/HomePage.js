@@ -93,7 +93,7 @@ export default HomePage;
 
 
 
-import React, { useState } from 'react';
+import React from 'react';
 import Navbar from '../navbar/navbar';
 import Footer from '../Footer/footer';
 import image from '../../img/1.png';
@@ -102,12 +102,11 @@ import { SiTailwindcss } from 'react-icons/si';
 import { SiOpenai } from 'react-icons/si';
 import { useNavigate } from 'react-router-dom';
 
-import { FaChevronUp, FaChevronDown } from 'react-icons/fa';
 
 import owrenmek1 from '../../img/postsimg/owrenmek/learn1.jpg'
 import okuwcy1 from '../../img/postsimg/okuwcy/stdn1.jpg'
 import mug1 from '../../img/postsimg/mug/teacher1.jpg'
-import Chatbot from './chatbot/chat';
+import ChatBox from './chatbot/chatbox';
 
 const blogPosts = [
     {
@@ -167,56 +166,6 @@ const ChatBox = () => {
     };
 
     return (
-        <div className="fixed bottom-5 right-5  z-50">
-
-            <div
-                className={`bg-[#1B202D] opacity-100 text-white rounded-lg shadow-lg transition-all duration-300 ${isChatExpanded ? 'h-[700px] w-[400px]' : 'h-[70px] w-[400px]'
-                    }`}
-            >
-
-                <div className={`${isChatExpanded ? 'p-4 flex bg-black justify-between items-center' : 'p-4 flex  justify-between items-center'
-                    } `}
-
-                >
-                    <p className={'block text-lg'}>
-
-                        {isChatExpanded ? 'Google Emeli intellekt arkaly jogaplanar' : ' Salam, soraglaryňyzy sorap bilersiňiz!'}
-                    </p>
-                    <button
-                        onClick={toggleChatSize}
-                        className="text-green-800 font-bold  bg-white hover:bg-blue-800 hover:text-white p-2 rounded-full"
-                    >
-                        {isChatExpanded ? <FaChevronDown /> : <FaChevronUp />}
-                    </button>
-                </div>
-
-
-                {isChatExpanded && (
-                    <div className="p-2 text-white h-[700px]   overflow-y-auto mb-10">
-
-
-                        <Chatbot />
-
-                    </div>
-                )}
-            </div>
-        </div>
-    );
-};
-
-
- */
-
-
-
-const ChatBox = () => {
-    const [isChatExpanded, setIsChatExpanded] = useState(false);
-
-    const toggleChatSize = () => {
-        setIsChatExpanded(!isChatExpanded);
-    };
-
-    return (
         <div className="fixed bottom-5 right-5 z-50">
 
             <div
@@ -247,7 +196,7 @@ const ChatBox = () => {
         </div>
     );
 };
-
+ */
 
 
 

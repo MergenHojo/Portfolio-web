@@ -56,8 +56,18 @@ const AboutPage = () => {
                                 Häzirki wagtda mugallym we front-end developer, React.js bilen işleýarin. AI ulanmakda höwesjeň.
                             </p>
                             <div className="flex justify-center md:justify-start mt-6 space-x-4">
-                                <button className="px-4 py-2 bg-blue-600 text-white rounded-lg shadow-lg hover:bg-blue-700 transition duration-200">Gazananlarym</button>
-                                <button className="px-4 py-2 bg-gray-700 text-white rounded-lg shadow-lg hover:bg-gray-800 transition duration-200">Işlerim</button>
+                                <button
+                                    className="px-4 py-2 bg-blue-600 text-white rounded-lg shadow-lg hover:bg-blue-700 transition duration-200"
+                                    onClick={() => window.location.href = '/achievements'}
+                                >
+                                    Gazananlarym
+                                </button>
+                                <button
+                                    className="px-4 py-2 bg-gray-700 text-white rounded-lg shadow-lg hover:bg-gray-800 transition duration-200"
+                                    onClick={() => window.location.href = '/projects'}
+                                >
+                                    Işlerim
+                                </button>
                             </div>
                         </div>
                     </div>
